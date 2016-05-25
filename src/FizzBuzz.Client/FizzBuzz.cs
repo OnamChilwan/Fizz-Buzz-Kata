@@ -4,10 +4,10 @@
     {
         public string Execute(int number)
         {
-            if (IsNumberDivisiblebyThree(number) && IsNumberDivisibleByFive(number))
+            if (IsNumberDivisibleByThree(number) && IsNumberDivisibleByFive(number))
                 return "FizzBuzz";
 
-            if (IsNumberDivisiblebyThree(number))
+            if (IsNumberDivisibleByThree(number))
                 return "Fizz";
 
             if (IsNumberDivisibleByFive(number))
@@ -21,7 +21,7 @@
             return number % 5 == 0;
         }
 
-        private static bool IsNumberDivisiblebyThree(int number)
+        private static bool IsNumberDivisibleByThree(int number)
         {
             return number % 3 == 0;
         }
